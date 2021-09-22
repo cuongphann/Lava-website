@@ -139,6 +139,12 @@
 }
 /* =========== for mobile =========== */
 @media screen and (max-width: 768px) {
+  .home {
+    background-size: 100%;
+  }
+  .home__content {
+    padding-top: 100%;
+  }
   .about__card {
     width: 100%;
   }

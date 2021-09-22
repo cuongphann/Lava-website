@@ -1,1 +1,11 @@
 https://templatemo.com/live/templatemo_540_lava_landing_page
+
+@media screen and (max-width: 768px)
+.home {
+    background-size: 100%;
+}
+
+@media screen and (max-width: 768px)
+.home__content {
+    padding-top: 100%;
+}
