@@ -1,0 +1,169 @@
+/* =========== for tablet =========== */
+@media screen and (max-width: 1024px) {
+  .slider-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .header {
+    background-color: #f7f7f7;
+  }
+  .nav__menu {
+    display: none;
+    position: fixed;
+    width: 80%;
+    flex-direction: column;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #f7f7f7;
+  }
+  .nav__btn-mobile{
+    display: block;
+    margin-left: auto;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  .nav__menu-item {
+    text-align: center ;
+    width: 100%;
+    height: 50px;
+    transition: .2s ease;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .nav__menu-link {
+    display: inline-block;
+    width: 100%;
+    line-height: 5rem;
+    color: var(--title-color);
+  }
+  .nav__menu-item:hover {
+    background-color: #eee;
+    cursor: pointer;
+  }
+  .nav__menu-item i {
+    margin-right: 0;
+  }
+  .nav__sub {
+    opacity: 1;
+    transition: initial;
+    position: initial;
+    visibility: visible;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    box-shadow: none;
+  }
+  
+  .nav__sub-link {
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 5rem;
+  }
+  .nav__menu-item:hover .nav__sub {
+    background-color: #f7f7f7;
+  }
+  .nav__menu-item:last-child {
+    padding-right: 1.5rem;
+  }
+  .menu-active {
+    color: var(--first-color);
+  }
+  .home {
+    height: auto;
+    padding-bottom: 0;
+  }
+  .home__content {
+    flex-basis: calc(100% * 11 / 12);
+    padding-top: 70rem;
+  }
+  .home__title {
+    margin-top: 3.5rem;
+  }
+  .about__cards {
+    margin: 0 15px;
+  }
+  .about__card {
+    width: calc(50% - 30px);
+    margin-bottom: 30px;
+  }
+  .promotion__container  {
+    flex-direction: column;
+  }
+  .promotion__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .promotion__list {
+    width: 100%;
+    margin: 5rem 0 0 0;
+    padding: 0 3rem;
+  }
+  .testimonials__slider {
+    width: 100%;
+  }
+  .testimonials__list {
+    padding: 0 3rem;
+    margin: 0;
+  }
+  .testimonials__item {
+    width: 100%;
+  }
+  .footer {
+    height: auto;
+  }
+  .contact__form {
+    width: 100%;
+    margin-bottom: 4.5rem;
+  }
+  .contact__content {
+    width: 100%;
+    text-align: center;
+  }
+  .contact__socials-link i {
+    transform: initial;
+  }
+}
+/* =========== for mobile =========== */
+@media screen and (max-width: 768px) {
+  .about__card {
+    width: 100%;
+  }
+  .promotion__item {
+    flex-direction: column;
+  }
+  .promotion__item img {
+    margin: 0 auto;
+  }
+  .promotion__content{
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .section {
+    padding-bottom: 0;
+  }
+  .footer {
+    margin: 0;
+  }
+  .contact__form-grp{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px)  {
+  .container {
+    width: 960px;
+  }
+}
